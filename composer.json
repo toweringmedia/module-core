@@ -1,0 +1,35 @@
+{
+    "name": "toweringmedia/module-core",
+    "description": "Base extension providing common functionality for all ToweringMedia extensions",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "ToweringMedia",
+            "email": "info@toweringmedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "magento/framework": ">=103.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "keywords": [
+        "magento2",
+        "magento",
+        "core",
+        "base",
+        "toweringmedia"
+    ],
+    "homepage": "https://toweringmedia.com",
+    "support": {
+        "email": "support@toweringmedia.com"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
